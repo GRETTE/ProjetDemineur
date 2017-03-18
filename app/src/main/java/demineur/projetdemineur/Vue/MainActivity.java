@@ -1,7 +1,9 @@
-package demineur.projetdemineur;
+package demineur.projetdemineur.Vue;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import demineur.projetdemineur.R;
 
 public class MainActivity extends AppCompatActivity {
 
