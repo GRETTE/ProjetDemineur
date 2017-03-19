@@ -8,19 +8,18 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:text="Instruction"
-        android:layout_alignParentLeft="true"
+        android:textSize="20dp"
         android:layout_alignParentTop="true"/>
 
     <RelativeLayout
+        android:id="@+id/relativeLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:orientation="horizontal"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true">
-
+        android:layout_alignParentBottom="true">
         <Button
-            android:id="@+id/buttonRetour"
+            android:id="@+id/buttonRetourInstruction"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Retour"

@@ -49,6 +49,14 @@ public class ChoixDifficulte extends Activity {
                 startActivity(intent);
             }
         });
+
+        Button btnRetour = (Button)findViewById(R.id.buttonRetourDifficulte);
+        btnRetour.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
     }
 
     public static int getDifficule() {

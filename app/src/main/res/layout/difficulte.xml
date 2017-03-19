@@ -41,4 +41,12 @@
             android:layout_gravity="center"
             android:text="@string/diff_difficile"
             android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/buttonRetourDifficulte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Retour"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"/>
 </RelativeLayout>
